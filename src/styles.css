@@ -1,0 +1,31 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+
+.container {
+  max-width: 100%;
+}
+
+.to-do {
+  width: 100%;
+  max-width: 540px;
+  background: white;
+  border-radius: 10px;
+  margin: 100px auto;
+  padding: 40px 30px 70px;
+}
+
+.to-do h1 {
+  display: flex;
+  align-items: center;
+}
+
+.to-do h1 img {
+  width: 30px;
+  margin-left: 20px;
+}
