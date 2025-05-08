@@ -29,3 +29,44 @@ body {
   width: 30px;
   margin-left: 20px;
 }
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+}
+
+input {
+  color: white;
+  flex: 1;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  padding: 10px;
+}
+
+input::placeholder {
+  color: white;
+}
+
+button {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  outline: none;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 50px;
+  margin-left: 10px;
+}
