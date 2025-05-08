@@ -21,6 +21,7 @@ body {
 }
 
 .to-do h1 {
+  font-family: "Edu QLD Beginner", cursive;
   display: flex;
   align-items: center;
 }
