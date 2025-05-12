@@ -100,3 +100,19 @@ ul li span {
   top: 5px;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .to-do {
+    width: 90%;
+    padding: 20px;
+  }
+
+  input {
+    font-size: 18px;
+  }
+
+  button {
+    width: 100%;
+    padding: 15px;
+  }
+}
