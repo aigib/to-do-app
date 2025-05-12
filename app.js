@@ -3,7 +3,7 @@ const taskContainer = document.getElementById("task-container");
 
 function addTask() {
   if (inputBox.value === "") {
-    alert("Wright something");
+    alert("Write something");
   } else {
     let li = document.createElement("li");
     li.innerHTML = inputBox.value;
